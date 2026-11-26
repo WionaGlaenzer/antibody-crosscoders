@@ -1,0 +1,25 @@
+metric,original,rebuild95,note
+Categorization: mixed base-only,1045,637±5,3-seed mean±sd
+Categorization: mixed gained-at-unpaired,1488,1173±13,
+Categorization: mixed shared-all,24891,27552±198,
+Categorization: mixed n_active,27495,29423±184,
+Categorization: paired gained-at-unpaired,4817,5179±33,
+Categorization: unpaired gained-at-unpaired,— (n/a orig),6061±49,new size-matched control
+Concept: #concepts detected ≥3/5 folds,6,9,orig 12 labeled folds ~317k res; rb95 209 labeled test seqs
+Concept best-F1: Signal peptide,0.655,0.377±0.175,
+Concept best-F1: Coiled coil,0.346,0.523±0.301,
+Concept best-F1: Transmembrane,0.607,0.231±0.045,
+Concept best-F1: Helix,0.097,0.267±0.080,
+Region best-F1: CDR1,0.502,0.508±0.002,det 5/5
+Region best-F1: CDR2,0.725,0.715±0.001,det 5/5
+Region best-F1: CDR3,0.652,0.670±0.002,det 5/5
+Region best-F1: FR4,0.602,0.600±0.000,det 5/5
+V-gene: median best-F1 (per fold),1.000,1.000±0.000,
+V-gene: genes detected / fold,27/39,26±0.5/37,
+Forgetting: overall VE ProtBert,0.676,0.691,
+Forgetting: overall VE IgBert-unp,0.804,0.812,
+Forgetting: ProtBert−IgBert(unp),-0.128,-0.121,
+Forgetting: #base-only latents (mixed),1045,649,decoder-norm classify
+Geometry: centroid angle ab-vs-rest (deg),107.2,107.1,orig: ab_vs_shared
+Geometry: eff. rank gained-at-unpaired,279,257,
+Geometry: silhouette gained-vs-rest (cos),—,0.0025,new

@@ -1,0 +1,176 @@
+{
+  "seed": 42,
+  "budgets": {
+    "small": 9400000,
+    "scale": 94825040
+  },
+  "offsets": {
+    "small": 100000,
+    "scale": 10000000
+  },
+  "scales": {
+    "small": {
+      "B": 9400000,
+      "offset": 100000,
+      "paired_n_ab": 40598,
+      "paired_residues": 9400073,
+      "mixed_n_ab": 20300,
+      "mixed_ab_residues": 4700219,
+      "mixed_n_gen": 17917,
+      "mixed_gen_residues": 4700085,
+      "mixed_residues": 9400304
+    },
+    "scale": {
+      "B": 94825040,
+      "offset": 10000000,
+      "paired_n_ab": 409511,
+      "paired_residues": 94825171,
+      "mixed_n_ab": 204771,
+      "mixed_ab_residues": 47412550,
+      "mixed_n_gen": 180337,
+      "mixed_gen_residues": 47412739,
+      "mixed_residues": 94825289,
+      "note": "regenerated at B_scale=10x full_paired_L20 (94,825,040)"
+    }
+  },
+  "verify": {
+    "small": {
+      "paired_residues": 9400073,
+      "unpaired_residues": 9400073,
+      "mixed_residues": 9400304,
+      "paired_n_ab": 40598,
+      "mixed_n_ab": 20300,
+      "mixed_n_gen": 17917,
+      "mixed_ab_strict_subset_of_paired": true,
+      "unpaired_equals_paired_abs": true,
+      "size_match_within_5pct": true,
+      "ab_split_consistent_paired_vs_mixed": true,
+      "split_props_paired": {
+        "train": 0.6976,
+        "val": 0.1537,
+        "test": 0.1487
+      },
+      "split_props_mixed_ab": {
+        "train": 0.6955,
+        "val": 0.1551,
+        "test": 0.1494
+      },
+      "split_props_mixed_gen": {
+        "train": 0.7011,
+        "val": 0.1507,
+        "test": 0.1482
+      },
+      "no_seqid_collision": true
+    },
+    "scale": {
+      "B": 94825040,
+      "offset": 10000000,
+      "paired_residues": 94825171,
+      "unpaired_residues": 94825171,
+      "mixed_residues": 94825289,
+      "paired_n_ab": 409511,
+      "mixed_n_ab": 204771,
+      "mixed_n_gen": 180337,
+      "mixed_ab_residues": 47412550,
+      "mixed_gen_residues": 47412739,
+      "mixed_ab_strict_subset_of_paired": true,
+      "unpaired_equals_paired_abs": true,
+      "size_match_within_5pct": true,
+      "ab_split_consistent_paired_vs_mixed": true,
+      "no_seqid_collision": true,
+      "split_props_paired": {
+        "train": 0.7002,
+        "val": 0.1504,
+        "test": 0.1494
+      },
+      "split_props_mixed_ab": {
+        "train": 0.7,
+        "val": 0.1507,
+        "test": 0.1493
+      },
+      "split_props_mixed_gen": {
+        "train": 0.6993,
+        "val": 0.1503,
+        "test": 0.1504
+      },
+      "per_split_paired": {
+        "train": {
+          "n_seq": 286737,
+          "residues": 66397080
+        },
+        "val": {
+          "n_seq": 61601,
+          "residues": 14265483
+        },
+        "test": {
+          "n_seq": 61173,
+          "residues": 14162608
+        }
+      },
+      "per_split_unpaired": {
+        "train": {
+          "n_seq": 286737,
+          "residues": 66397080
+        },
+        "val": {
+          "n_seq": 61601,
+          "residues": 14265483
+        },
+        "test": {
+          "n_seq": 61173,
+          "residues": 14162608
+        }
+      },
+      "per_split_mixed_all": {
+        "train": {
+          "n_seq": 269438,
+          "residues": 66352930
+        },
+        "val": {
+          "n_seq": 57972,
+          "residues": 14255004
+        },
+        "test": {
+          "n_seq": 57698,
+          "residues": 14217355
+        }
+      },
+      "per_split_mixed_ab": {
+        "train": {
+          "n_seq": 143331,
+          "residues": 33187519
+        },
+        "val": {
+          "n_seq": 30859,
+          "residues": 7145101
+        },
+        "test": {
+          "n_seq": 30581,
+          "residues": 7079930
+        }
+      },
+      "per_split_mixed_gen": {
+        "train": {
+          "n_seq": 126107,
+          "residues": 33165411
+        },
+        "val": {
+          "n_seq": 27113,
+          "residues": 7109903
+        },
+        "test": {
+          "n_seq": 27117,
+          "residues": 7137425
+        }
+      }
+    }
+  },
+  "paths": {
+    "paired_small": "/cluster/project/reddy/wglaenzer/crosscoders/data/exp_paired_small.parquet",
+    "unpaired_small": "/cluster/project/reddy/wglaenzer/crosscoders/data/exp_unpaired_small.parquet",
+    "mixed_small": "/cluster/project/reddy/wglaenzer/crosscoders/data/exp_mixed_small.parquet",
+    "paired_scale": "/cluster/project/reddy/wglaenzer/crosscoders/data/exp_paired_scale.parquet",
+    "unpaired_scale": "/cluster/project/reddy/wglaenzer/crosscoders/data/exp_unpaired_scale.parquet",
+    "mixed_scale": "/cluster/project/reddy/wglaenzer/crosscoders/data/exp_mixed_scale.parquet"
+  }
+}

@@ -1,0 +1,13 @@
+concept,floor,n_detectors
+Compositional bias,0.3033,5
+Domain [FT],0.7256,0
+Binding site,0.2810,0
+Active site,0.2071,0
+Transmembrane,0.4876,2
+Signal peptide,0.2458,34
+Coiled coil,0.2341,39
+Disulfide bond,0.2078,9
+Region,0.5627,0
+Helix,0.3257,0
+Beta strand,0.2708,0
+Turn,0.2107,0

@@ -1,0 +1,15 @@
+# Paths used by all pipeline scripts (read by paths.py).
+# Copy this file to config.yaml and edit it; config.yaml is ignored by git.
+# Without a config.yaml, these defaults (the paper's setup on ETH Euler) are used.
+
+# Project root containing data/, activations/, checkpoints/ and results/.
+root: /cluster/project/reddy/wglaenzer/crosscoders
+
+# Directory for large temporary files (training buffers, MMseqs2 work directories).
+scratch: /cluster/scratch/wglaenzer
+
+# Hugging Face cache for the three language models.
+hf_home: /cluster/project/reddy/wglaenzer/caches/hf
+
+# Raw OAS paired-sequence download (only used by 1_data_prep/build_oas_scaleup.py).
+oas_raw: /cluster/project/reddy/wglaenzer/oas_paired
